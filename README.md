@@ -15,7 +15,7 @@ This repository documents my hands-on practice with Git and GitHub as I prepare 
 
 Here’s the structure of the repository:
 
-.
+`
 ├── data/
 │   ├── raw/                   # Raw data collected from the database
 │   └── cleaned/               # Cleaned and preprocessed data
@@ -24,7 +24,7 @@ Here’s the structure of the repository:
 ├── feature_engineering.py     # Script for feature engineering tasks
 ├── model_trainer.py           # Script for training the machine learning model
 └── requirements.txt           # List of required Python libraries
-
+`
 
 ## Key Git Commands Used
 
