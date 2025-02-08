@@ -1,11 +1,8 @@
-from model_trainer  import ModelTrainer
+from data_collection import DataCollection 
 
 
-modeltrainer = ModelTrainer()
+datacollection = DataCollection()
 
 
-#training model and predicting  
-modeltrainer.train_model()
-answer = modeltrainer.predict([1.0,1.0,1.0,1.0,1.0,1.0])
-
-print(answer)
+#fetching data from databse and saving locally
+datacollection.save_data()
