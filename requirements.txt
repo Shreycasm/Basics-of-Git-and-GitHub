@@ -1,0 +1,9 @@
+pandas 
+numpy  
+python-dotenv
+pymysql
+sqlalchemy
+flask
+mysql-connector-python
+ipykernel
+scikit-learn
