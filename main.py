@@ -1,8 +1,11 @@
-from feature_engineering import FeatureEngineering
+from model_trainer  import ModelTrainer
 
 
-featureengineering = FeatureEngineering()
+modeltrainer = ModelTrainer()
 
 
-#cleaning data and saving locally
-featureengineering.save_data()
+#training model and predicting  
+modeltrainer.train_model()
+answer = modeltrainer.predict([1.0,1.0,1.0,1.0,1.0,1.0])
+
+print(answer)
