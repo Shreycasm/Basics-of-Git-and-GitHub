@@ -1,8 +1,8 @@
-from data_collection import DataCollection 
+from feature_engineering import FeatureEngineering
 
 
-datacollection = DataCollection()
+featureengineering = FeatureEngineering()
 
 
-#fetching data from databse and saving locally
-datacollection.save_data()
+#cleaning data and saving locally
+featureengineering.save_data()
